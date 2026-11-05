@@ -1,0 +1,14 @@
+# 依赖
+node_modules/
+
+# 运行时生成：浏览器登录态（含 vivo 会话 cookie，切勿提交！）
+.vnm-profile/
+.vnm-profile-*/
+
+# 运行时生成：导出数据（含个人笔记内容，切勿提交！）
+vivo-notes-export-*/
+test-export/
+
+# 系统垃圾
+.DS_Store
+*.log
