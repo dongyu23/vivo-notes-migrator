@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "vivo 原子笔记 → Mac 备忘录 / JSON / Markdown 一键迁移工具",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dongyu23/vivo-notes-migrator.git"
+  },
+  "homepage": "https://github.com/dongyu23/vivo-notes-migrator",
   "bin": {
     "vivo-notes-migrator": "bin/migrate.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "os": [
     "darwin"
